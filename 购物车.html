@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车详情</title>
+
+    <!-- 引入car css -->
+    <link rel="stylesheet" href="css/car.css">
+    <!-- 引入jquery  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/car.js"></script>
+</head>
+<body>
+    <!-- 购物车 -->
+    <div class="car-container">
+        <div class="main-car">
+            <!-- 头部 -->
+            <div class="carhead">
+                <em>全部商品</em>
+            </div>
+            <!-- 购物车内容 -->
+            <div class="car-content">
+                <!-- 全选头部 -->
+                <div class="car-all-head">
+                    <div class="all-car">
+                        <input type="checkbox" name="" id="" class="checkall">全选   
+                    </div>
+                    <div class="h-goods">商品</div>
+                    <div class="h-price">价格</div>
+                    <div class="h-num">数量</div>
+                    <div class="h-sum">小计</div>
+                    <div class="h-ope">操作</div>
+                </div>
+                <!-- 商品内容 -->
+                <div class="goods-list">
+                    <div class="goods">
+                        <div class="g-check">
+                            <input type="checkbox" name="" id="" class="g-checkbox">
+                        </div>
+                       <div class="g-goods">
+                           <div class="g-img">
+                            <a href="javascript:;" > <img src="image/追风筝.png" alt=""></a>
+                              
+                           </div>
+                           <div class="g-mesg">追风筝的人  卡特勒•胡塞尼著
+                            <div class="sail">
+                                <h3>秒杀倒计时</h3>
+                                <span class="hour">00</span>
+                                <span>:</span>
+                                <span class="minutes">00</span>
+                                <span>:</span>
+                                <span class="second">00</span>
+                            </div>
+                           </div>
+                       </div>
+                       <div class="g-price">￥29.50</div>
+                       <div class="g-num">
+                           <div class="gnum-form">
+                            <a href="javascript:;" class="decrement">-</a>
+                            <input type="text" class="itxt" value="1">
+                            <a href="javascript:;" class="increment">+</a>
+                           </div>
+                          <div class="g-num-c"></div>
+                       </div>
+                       <div class="g-sum">￥29.50</div>
+                       <div class="g-ope">
+                           <a href="javascript:;">删除</a>
+                       </div>
+                    </div>
+                    <div class="goods">
+                        <div class="g-check">
+                            <input type="checkbox" name="" id="" class="g-checkbox">
+                        </div>
+                       <div class="g-goods">
+                           <div class="g-img">
+                            <a href="javascript:;" >  <img src="image/活着.png" alt=""></a>
+                             
+                           </div>
+                           <div class="g-mesg">人不单靠面包活着：陀思妥耶夫斯基书信选 [俄] 费·米·陀思妥耶夫斯基 冯增义 徐振亚译 上海译文出版社 正版</div>
+                       </div>
+                       <div class="g-price">￥58.00</div>
+                       <div class="g-num">
+                           <div class="gnum-form">
+                            <a href="javascript:;" class="decrement">-</a>
+                            <input type="text" class="itxt" value="1">
+                            <a href="javascript:;" class="increment">+</a>
+                           </div>
+                          <div class="g-num-c"></div>
+                       </div>
+                       <div class="g-sum">￥58.00</div>
+                       <div class="g-ope">
+                           <a href="javascript:;">删除</a>
+                       </div>
+                    </div>
+                    <div class="goods">
+                        <div class="g-check">
+                            <input type="checkbox" name="" id="" class="g-checkbox">
+                        </div>
+                       <div class="g-goods">
+                           <div class="g-img">
+                               <a href="D:/前端code/人类简史.html" id="peo"><img src="image/人类简史.png" alt=""></a>
+                               
+                           </div>
+                           <div class="g-mesg">人类简史-从动物到上帝 未来简史尤瓦尔 赫拉利</div>
+                       </div>
+                       <div class="g-price">￥68.00</div>
+                       <div class="g-num">
+                           <div class="gnum-form">
+                            <a href="javascript:;" class="decrement">-</a>
+                            <input type="text" class="itxt" value="1">
+                            <a href="javascript:;" class="increment">+</a>
+                           </div>                     
+                          <div class="g-num-c"></div>
+                       </div>
+                       <div class="g-sum">￥68.00</div>
+                       <div class="g-ope">
+                           <a href="javascript:;">删除</a>
+                       </div>
+                    </div>
+                </div>
+               
+                <!-- 结算 -->
+                <div class="car-cu">
+                    <div class="select-all">
+                        <input type="checkbox" name="" id="" class="checkall">全选
+                    </div>
+                    <div class="car-op">
+                        <a href="javascript:;" class="remove-goods">删除选中商品</a>
+                        <a href="javascript:;" class="clear-all">清理购物车</a>
+                    </div>
+                    <div class="car-cu-right">
+                        <div class="amount-sum">已经选<em>0</em>件商品</div>
+                        <div class="price-sum">总价： <em>￥0.00</em></div>
+                        <div class="btn-cu">去结算</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.w {
+	width: 1200px;
+	margin: auto;
+}
+.login {
+	height: 520px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+.login h3 {
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	background-color: #ececec;
+	padding: 0  10px;
+	font-weight: 400;
+	line-height: 40px;
+	font-size: 18px;
+}
+.log-form {
+	width: 600px;
+	height: 400px;
+	margin: 40px auto 0;
+}
+.ulbox {
+    margin:auto;
+    margin-top: 150px;
+}
+.log-form li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+.log-form label {
+    display: inline-block;
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	text-align: right;
+}
+.inp {
+	width: 238px;
+	height: 34px;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+} 
+.logbtn {
+    border: 1px solid #ff9000;
+    border-radius: 3px;
+    font-size: 20px;
+    height: 42px;
+    line-height: 42px;
+    outline: none;
+    color: #fff;
+    width: 60%;
+    background-color: red;
+}
+.errorp {
+	display: none;
+	color: #df3033;
+	margin-left: 10px;
+}
+.errorn {
+	display: none;
+	color: #df3033;
+	margin-left: 10px;
+}
+.error-icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../image/error.png) no-repeat;
+	vertical-align: middle;
+	margin-top: -2px;
+}
