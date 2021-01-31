@@ -16,7 +16,7 @@ $(function() {
        $(".errorp").css("display","none");
        if(name=='admin' && pwd=='123456')  
        {
-           window.location.href="D:/前端code/购物车.html"
+           window.location.href="https://veilhry.github.io/demo/购物车.html"
        }
        else if (name !='' && pwd!='')
        alert("账号或密码错误");
