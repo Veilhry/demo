@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.inf {
+    width: 380px;
+    height: 300px;
+    position: fixed;
+    border: gray solid 1px;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px gray;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.inhead {
+    width: 100%;
+    height: 20px;
+    padding: 20px 0;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+    cursor: move;
+}
+.inhead span {
+    position: absolute;
+    font-size: 10px;
+    top: -15px;
+    right: -15px;
+    background-color: #fff;
+    border: gray solid 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+}
+.login-input {
+    overflow: hidden;
+    margin: 10px;
+}
+.login-input label{
+    float: left;
+    padding-right: 10px;
+    width: 80px;
+    height: 30px;
+    /* line-height: 30px; */
+    text-align: right;
+    font-size: 18px;
+}
+.inputlist {
+    float: left;
+    width: 200px;
+    height: 30px;
+    border: gray solid 1px;
+    text-indent: 5px;
+}
+#ackbtn {
+    display: block;
+    margin: 30px auto 30px auto;
+    width: 280px;
+    height: 30px;
+    border: gray solid 1px;
+    text-align: center;
+}
+.inputdata  {
+    position: absolute;
+    top: 20px;
+    left: 410px;
+    margin: 30px;
+}
+.search {
+    position: absolute;
+    top: 20px;
+    left: 620px;
+    margin: 25px;
+    width: 500px;
+}
+.search .login-input {
+    float: left;
+}
+button {
+    outline:none;
+    border: none;
+    background-color: rgba(0, 0, 0, .1);
+    padding: 10px;
+    margin: auto;
+    width: 80px;
+    height: 40px;
+   border-radius: 20px;
+}
+.deltd {
+    color: red;
+}
+/* .tabledate {
+    margin:  100px auto;
+    /* width: 300px;
+    height: 200px; 
+} **/
+.tab {
+ border-collapse: collapse;
+    margin:  100px auto;
+    width: 600px;
+}
+.tab tr {
+    border-bottom: 1px solid #d7d7d7;
+    height: 30px;
+    text-align: center;
+}
+.tabledate .tab tbody tr:hover {
+    background-color: pink;
+}
+.tab thead td {
+    background-color: skyblue;
+    text-align: center;
+}
+.tab tbody tr:nth-child(2n) {
+    background-color: rgba(0, 0, 0, .1);
+}
