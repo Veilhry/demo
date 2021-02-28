@@ -81,7 +81,7 @@ function getJSON(url) {
     })
 }
 
-getJSON('http://poetry.apiopen.top/getTime').then(res => console.log(res));
+getJSON('http://poetry.apiopen.top/sentences').then(res => console.log(res));
 
 
 
