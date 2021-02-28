@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户信息</title>
+    <link rel="stylesheet" href="css/demo.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/demo.js"></script>
+</head>
+<body>
+    <div class="tabledate">
+        <table border="0" cellspacing="0" cellspadding="0" class="tab">
+            <thead>
+                <tr>
+                    <td>姓名</td>
+                    <td>年龄</td>
+                    <td>邮箱</td>
+                    <td>操作</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>张三</td>
+                    <td>18</td>
+                    <td>13154684@qq.com</td>
+                    <td>
+                        <a href="javascript:;" class="deltd">删除</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>李四</td>
+                    <td>23</td>
+                    <td>56461425@qq.com</td>
+                    <td>
+                        <a href="javascript:;" class="deltd">删除</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>张明</td>
+                    <td>15</td>
+                    <td>15161684@qq.com</td>
+                    <td>
+                        <a href="javascript:;" class="deltd">删除</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>李琦</td>
+                    <td>32</td>
+                    <td>1354138@163.com</td>
+                    <td>
+                        <a href="javascript:;" class="deltd">删除</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>陈西</td>
+                    <td>23</td>
+                    <td>chenxi@126.com</td>
+                    <td>
+                        <a href="javascript:;" class="deltd">删除</a>
+                    </td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+    <div class="inputdata">
+        <button class="databtn" id="add">添加信息</button>
+    </div>
+
+    <div class="search">
+        <div class="login-input">
+            <label for="">姓名:</label>
+            <input type="text" placeholder="请输入姓名" id="sea-username" class="inputlist">
+        </div>
+        <button class="databtn" id="sech">查询</button>
+    </div>
+    <div class="inf">
+        <div class="inhead">信息输入
+            <span><a id="closeBtn" href="javascript:void(0);" class="close-login">关闭</a></span>
+        </div>
+        <div class="inputcontent">
+            <div class="login-input">
+                <label for="">姓名:</label>
+                <input type="text" placeholder="请输入姓名" id="username" class="inputlist">
+            </div>
+            <div class="login-input">
+                <label for="">年龄:</label>
+                <input type="text" placeholder="请输入年龄" id="userage" class="inputlist">
+            </div>
+            <div class="login-input">
+                <label for="">邮箱:</label>
+                <input type="text" placeholder="请输入邮箱" id="useremail" class="inputlist">
+            </div>
+            
+            <div class="acbtn">
+                <a href="javascript:;" id="ackbtn">确认</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
